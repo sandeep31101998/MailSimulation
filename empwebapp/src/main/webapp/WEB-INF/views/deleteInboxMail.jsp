@@ -16,7 +16,7 @@
 	<fieldset>
 		<legend>Enter the Recived mail details</legend>
 		<form action="./delete1">
-			<table>
+			<table class="text-center">
 				<tr>
 					<td>Message ID</td>
 					<td>:</td>

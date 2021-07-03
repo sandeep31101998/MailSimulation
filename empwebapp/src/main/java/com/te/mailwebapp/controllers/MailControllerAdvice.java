@@ -13,7 +13,7 @@ public class MailControllerAdvice {
 	@ExceptionHandler(MailException.class)
 	public String handleExp(MailException exception,HttpServletRequest req ) {
 		req.setAttribute("errMsg", exception.getMessage());
-		return "empLogin";
+		return "UserLogin";
 	}// 
 
 }
